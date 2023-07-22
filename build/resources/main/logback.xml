@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <timestamp key="year" datePattern="yyyy"/>
+    <timestamp key="month" datePattern="MMM"/>
+    <timestamp key="day" datePattern="dd"/>
+    <property name="appName" value="gkhealth"/>
+    <property name="maxFileSize" value="3MB"/>
+    <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} %method:%line - %msg%n"/>
+
+    <!-- Console Appender -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Need appender to write to file -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--    Log write directory pattern   -->
+        <file>logs/archived/${year}/${month}/${day}/${appName}_application.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/archived/${year}/${month}/${day}/${appName}_application.%d{yyyy-MM-dd}.%i.log.zip
+            </fileNamePattern>
+            <maxFileSize>${maxFileSize}</maxFileSize> <!-- Maximum size of each log file -->
+
+            <defaultRolloverStrategy class="ch.qos.logback.core.rolling.DefaultRolloverStrategy">
+                <fileIndex>nomax</fileIndex> <!-- No maximum value for rolled-over file index -->
+            </defaultRolloverStrategy>
+        </rollingPolicy>
+
+        <!--    Log write pattern    -->
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
