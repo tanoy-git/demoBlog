@@ -4,8 +4,8 @@
     <timestamp key="year" datePattern="yyyy"/>
     <timestamp key="month" datePattern="MMM"/>
     <timestamp key="day" datePattern="dd"/>
-    <property name="appName" value="gkhealth"/>
-    <property name="maxFileSize" value="3MB"/>
+    <property name="appName" value="blog"/>
+    <property name="maxFileSize" value="10MB"/>
     <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} %method:%line - %msg%n"/>
 
     <!-- Console Appender -->
