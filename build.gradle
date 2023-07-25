@@ -19,6 +19,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	implementation 'org.postgresql:postgresql:42.6.0'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
@@ -26,3 +28,5 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+

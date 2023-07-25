@@ -36,3 +36,164 @@
 2023-07-23 01:40:28.047 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Starting ProtocolHandler ["http-nio-8080"]
 2023-07-23 01:40:28.071 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer start:220 - Tomcat started on port(s): 8080 (http) with context path ''
 2023-07-23 01:40:28.085 [restartedMain] INFO  com.example.demo.DemoApplication logStarted:57 - Started DemoApplication in 6.631 seconds (process running for 7.225)
+2023-07-23 10:53:48.194 [restartedMain] INFO  com.example.demo.DemoApplication logStarting:51 - Starting DemoApplication using Java 17.0.5 with PID 15268 (E:\ws\demoBlog\build\classes\java\main started by User in E:\ws\demoBlog)
+2023-07-23 10:53:48.202 [restartedMain] INFO  com.example.demo.DemoApplication logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 10:53:48.301 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-23 10:53:48.302 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-23 10:53:49.461 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 10:53:49.464 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-23 10:53:49.540 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.categories.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 10:53:49.542 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.comments.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 10:53:49.544 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.posts.PostRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 10:53:49.545 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 69 ms. Found 0 JDBC repository interfaces.
+2023-07-23 10:53:49.561 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 10:53:49.563 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-23 10:53:49.628 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2023-07-23 10:53:50.901 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-07-23 10:53:50.917 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-23 10:53:50.918 [restartedMain] INFO  o.a.catalina.core.StandardService log:173 - Starting service [Tomcat]
+2023-07-23 10:53:50.918 [restartedMain] INFO  o.a.catalina.core.StandardEngine log:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-23 10:53:51.049 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log:173 - Initializing Spring embedded WebApplicationContext
+2023-07-23 10:53:51.050 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 2745 ms
+2023-07-23 10:53:51.351 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-23 10:53:51.470 [restartedMain] INFO  org.hibernate.Version logVersion:44 - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-23 10:53:51.474 [restartedMain] INFO  org.hibernate.cfg.Environment <clinit>:191 - HHH000406: Using bytecode reflection optimizer
+2023-07-23 10:53:51.752 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 10:53:51.999 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-23 10:53:52.040 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:110 - HikariPool-1 - Starting...
+2023-07-23 10:53:52.409 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast:565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e7fcc30
+2023-07-23 10:53:52.413 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:123 - HikariPool-1 - Start completed.
+2023-07-23 10:53:52.484 [restartedMain] INFO  org.hibernate.orm.dialect logSelectedDialect:93 - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@300dc473
+2023-07-23 10:53:52.956 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 10:53:54.418 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-23 10:53:54.623 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-23 10:53:55.197 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory <clinit>:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-23 10:53:56.191 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-23 10:53:56.649 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration checkTemplateLocationExists:101 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-07-23 10:53:56.914 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer startServer:59 - LiveReload server is running on port 35729
+2023-07-23 10:53:56.934 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-23 10:53:56.968 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-23 10:53:56.990 [restartedMain] INFO  com.example.demo.DemoApplication logStarted:57 - Started DemoApplication in 9.59 seconds (process running for 10.404)
+2023-07-23 11:12:53.223 [restartedMain] INFO  com.example.demo.DemoApplication logStarting:51 - Starting DemoApplication using Java 17.0.5 with PID 14492 (E:\ws\demoBlog\build\classes\java\main started by User in E:\ws\demoBlog)
+2023-07-23 11:12:53.225 [restartedMain] INFO  com.example.demo.DemoApplication logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 11:12:53.286 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-23 11:12:53.286 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-23 11:12:54.151 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 11:12:54.153 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-23 11:12:54.210 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.categories.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:12:54.211 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.comments.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:12:54.213 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.posts.PostRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:12:54.214 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 45 ms. Found 0 JDBC repository interfaces.
+2023-07-23 11:12:54.227 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 11:12:54.228 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-23 11:12:54.281 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2023-07-23 11:12:55.202 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-07-23 11:12:55.214 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-23 11:12:55.216 [restartedMain] INFO  o.a.catalina.core.StandardService log:173 - Starting service [Tomcat]
+2023-07-23 11:12:55.217 [restartedMain] INFO  o.a.catalina.core.StandardEngine log:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-23 11:12:55.313 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log:173 - Initializing Spring embedded WebApplicationContext
+2023-07-23 11:12:55.313 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 2026 ms
+2023-07-23 11:12:55.522 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-23 11:12:55.597 [restartedMain] INFO  org.hibernate.Version logVersion:44 - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-23 11:12:55.601 [restartedMain] INFO  org.hibernate.cfg.Environment <clinit>:191 - HHH000406: Using bytecode reflection optimizer
+2023-07-23 11:12:55.757 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 11:12:55.917 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-23 11:12:55.942 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:110 - HikariPool-1 - Starting...
+2023-07-23 11:12:56.168 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast:565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26f8568d
+2023-07-23 11:12:56.170 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:123 - HikariPool-1 - Start completed.
+2023-07-23 11:12:56.219 [restartedMain] INFO  org.hibernate.orm.dialect logSelectedDialect:93 - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@50ac12ea
+2023-07-23 11:12:56.553 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 11:12:57.315 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-23 11:12:57.442 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-23 11:12:57.876 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory <clinit>:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-23 11:12:58.794 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-23 11:12:59.028 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init>:57 - Adding welcome page template: index
+2023-07-23 11:12:59.559 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer startServer:59 - LiveReload server is running on port 35729
+2023-07-23 11:12:59.585 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-23 11:12:59.629 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-23 11:12:59.652 [restartedMain] INFO  com.example.demo.DemoApplication logStarted:57 - Started DemoApplication in 7.024 seconds (process running for 7.512)
+2023-07-23 11:13:28.420 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 11:13:28.421 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-07-23 11:13:28.422 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet initServletBean:554 - Completed initialization in 1 ms
+2023-07-23 11:14:00.853 [restartedMain] INFO  com.example.demo.DemoApplication logStarting:51 - Starting DemoApplication using Java 17.0.5 with PID 14072 (E:\ws\demoBlog\build\classes\java\main started by User in E:\ws\demoBlog)
+2023-07-23 11:14:00.857 [restartedMain] INFO  com.example.demo.DemoApplication logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 11:14:00.915 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-23 11:14:00.916 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-23 11:14:01.739 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 11:14:01.741 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-23 11:14:01.807 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.categories.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:14:01.809 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.comments.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:14:01.812 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.posts.PostRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:14:01.813 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 59 ms. Found 0 JDBC repository interfaces.
+2023-07-23 11:14:01.832 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 11:14:01.833 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-23 11:14:01.901 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2023-07-23 11:14:02.909 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-07-23 11:14:02.927 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-23 11:14:02.928 [restartedMain] INFO  o.a.catalina.core.StandardService log:173 - Starting service [Tomcat]
+2023-07-23 11:14:02.929 [restartedMain] INFO  o.a.catalina.core.StandardEngine log:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-23 11:14:03.052 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log:173 - Initializing Spring embedded WebApplicationContext
+2023-07-23 11:14:03.053 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 2136 ms
+2023-07-23 11:14:03.322 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-23 11:14:03.396 [restartedMain] INFO  org.hibernate.Version logVersion:44 - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-23 11:14:03.400 [restartedMain] INFO  org.hibernate.cfg.Environment <clinit>:191 - HHH000406: Using bytecode reflection optimizer
+2023-07-23 11:14:03.603 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 11:14:03.795 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-23 11:14:03.827 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:110 - HikariPool-1 - Starting...
+2023-07-23 11:14:04.081 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast:565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a325cb0
+2023-07-23 11:14:04.084 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:123 - HikariPool-1 - Start completed.
+2023-07-23 11:14:04.130 [restartedMain] INFO  org.hibernate.orm.dialect logSelectedDialect:93 - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@43d07558
+2023-07-23 11:14:04.495 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 11:14:05.281 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-23 11:14:05.367 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-23 11:14:05.761 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory <clinit>:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-23 11:14:06.372 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-23 11:14:06.561 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init>:57 - Adding welcome page template: index
+2023-07-23 11:14:06.932 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer startServer:59 - LiveReload server is running on port 35729
+2023-07-23 11:14:06.951 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-23 11:14:06.979 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-23 11:14:06.994 [restartedMain] INFO  com.example.demo.DemoApplication logStarted:57 - Started DemoApplication in 6.778 seconds (process running for 7.337)
+2023-07-23 11:14:10.737 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 11:14:10.738 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-07-23 11:14:10.739 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet initServletBean:554 - Completed initialization in 1 ms
+2023-07-23 11:20:36.810 [restartedMain] INFO  com.example.demo.DemoApplication logStarting:51 - Starting DemoApplication using Java 17.0.5 with PID 21488 (E:\ws\demoBlog\build\classes\java\main started by User in E:\ws\demoBlog)
+2023-07-23 11:20:36.814 [restartedMain] INFO  com.example.demo.DemoApplication logStartupProfileInfo:633 - No active profile set, falling back to 1 default profile: "default"
+2023-07-23 11:20:36.878 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-23 11:20:36.879 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo:250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-23 11:20:37.713 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 11:20:37.716 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-23 11:20:37.780 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.categories.CategoryRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:20:37.782 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.comments.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:20:37.784 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport isStrictRepositoryCandidate:320 - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.posts.PostRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-07-23 11:20:37.786 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 57 ms. Found 0 JDBC repository interfaces.
+2023-07-23 11:20:37.800 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate multipleStoresDetected:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-23 11:20:37.802 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-23 11:20:37.845 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn:208 - Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+2023-07-23 11:20:38.730 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize:108 - Tomcat initialized with port(s): 8080 (http)
+2023-07-23 11:20:38.749 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-23 11:20:38.759 [restartedMain] INFO  o.a.catalina.core.StandardService log:173 - Starting service [Tomcat]
+2023-07-23 11:20:38.760 [restartedMain] INFO  o.a.catalina.core.StandardEngine log:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-23 11:20:38.949 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log:173 - Initializing Spring embedded WebApplicationContext
+2023-07-23 11:20:38.950 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext:291 - Root WebApplicationContext: initialization completed in 2071 ms
+2023-07-23 11:20:39.196 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-23 11:20:39.271 [restartedMain] INFO  org.hibernate.Version logVersion:44 - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-23 11:20:39.273 [restartedMain] INFO  org.hibernate.cfg.Environment <clinit>:191 - HHH000406: Using bytecode reflection optimizer
+2023-07-23 11:20:39.398 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 11:20:39.548 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-23 11:20:39.577 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:110 - HikariPool-1 - Starting...
+2023-07-23 11:20:39.834 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast:565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16a14f15
+2023-07-23 11:20:39.837 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource getConnection:123 - HikariPool-1 - Start completed.
+2023-07-23 11:20:39.878 [restartedMain] INFO  org.hibernate.orm.dialect logSelectedDialect:93 - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@60640944
+2023-07-23 11:20:40.262 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator buildBytecodeProvider:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-07-23 11:20:41.015 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-23 11:20:41.127 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-23 11:20:41.550 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory <clinit>:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-23 11:20:42.220 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-23 11:20:42.404 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init>:57 - Adding welcome page template: index
+2023-07-23 11:20:42.753 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer startServer:59 - LiveReload server is running on port 35729
+2023-07-23 11:20:42.768 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol log:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-23 11:20:42.794 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer start:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-23 11:20:42.810 [restartedMain] INFO  com.example.demo.DemoApplication logStarted:57 - Started DemoApplication in 6.648 seconds (process running for 7.174)
+2023-07-23 11:20:52.234 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 11:20:52.234 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2023-07-23 11:20:52.235 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet initServletBean:554 - Completed initialization in 1 ms
